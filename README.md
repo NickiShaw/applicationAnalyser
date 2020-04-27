@@ -1,8 +1,8 @@
 # applicationAnalyser
 Used to process applications to the science ambassador team at UWaterloo. Although can be used generally for applications.
 Main purposes are to:
-⋅⋅* Remove names for application marking.
-⋅⋅* Convert applications into PDF format (one file per applicant).
+..* Remove names for application marking.
+..* Convert applications into PDF format (one file per applicant).
 
 ## Dependencies
 ⋅⋅* pandas
