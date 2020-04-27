@@ -21,7 +21,7 @@ Use the applicant_# packages as a user-friendly reading format.
 
 When the applications have been marked merge the scores onto the fullInfo spreadsheet, done!
 
-# Usage for alternative users
+## Usage for alternative users
 Input file should be a .csv file with questions as column headings and application responses as rows.
 
 Open appProcessing.py in a GUI of your choice (I use PyCharm).
