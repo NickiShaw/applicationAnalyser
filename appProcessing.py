@@ -22,7 +22,7 @@ markingDf = df.reindex(markingInfo, axis='columns')
 # Check that all questions in markingInfo were present in markingDf, if true export csv file.
 if all(markingDf.columns == markingInfo):
     print('All questions in markingInfo were found')
-    markingDf.to_csv('C:/PATH/markinginfo_ambapplication.csv', index=False) # ADD PATH.
+    markingDf.to_csv('C:/PATH/markinginfo.csv', index=False) # ADD PATH.
 else:
     print('NOT all questions in markingInfo were found')
 
@@ -42,7 +42,7 @@ fullDf = df.reindex(fullInfo, axis='columns')
 # Check that all questions in fullInfo were present in fullDf, if true export csv file.
 if all(fullDf.columns == fullInfo):
     print('All questions in fullInfo were found')
-    fullDf.to_csv('C:/PATH/fullinfo_ambapplication.csv', index=False) # ADD PATH.
+    fullDf.to_csv('C:/PATH/fullinfo.csv', index=False) # ADD PATH.
 else:
     print('NOT all questions in fullInfo were found')
 
