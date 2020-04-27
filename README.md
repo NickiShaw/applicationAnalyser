@@ -4,9 +4,11 @@ Main purposes are to:
 * Remove names for application marking.
 * Convert applications into PDF format (one file per applicant).
 
+
 ## Dependencies
 * pandas
 * reportlab
+
 
 ## Usage for UWaterloo Ambassadors
 Input file should be application responses "without serial info" for UWaterloo ambassador applications.
@@ -21,6 +23,7 @@ Use the applicant_# packages as a user-friendly reading format.
 
 When the applications have been marked merge the scores onto the fullInfo spreadsheet, done!
 
+
 ## Usage for alternative users
 Input file should be a .csv file with questions as column headings and application responses as rows.
 
@@ -34,8 +37,10 @@ Use the applicant_# packages as a user-friendly reading format.
 
 When the applications have been marked merge the scores onto the fullInfo spreadsheet, done!
 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
