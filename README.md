@@ -27,7 +27,7 @@ Input file should be a .csv file with questions as column headings and applicati
 Open appProcessing.py in a GUI of your choice (I use PyCharm).
 * Remove the `header=[2, ]` in line 5 if column headings start on the first row of your file.
 * Make edits to all instances of PATH including adding the filenames for input (noted in code).
-* Edit the lists 'markingInfo' and 'fullInfo' to include the questions asked on the application (all info goes into fullInfo, but identity-sensitive information sould be omitted from markinInfo such as names). These lists can also be edited so only the columns named appear in each output file.
+* Edit the lists `markingInfo` and `fullInfo` to include the questions asked on the application (all info goes into fullInfo, but identity-sensitive information sould be omitted from markinInfo such as names). These lists can also be edited so only the columns named appear in each output file.
 Run code, do not view **fullInfo.csv** until marking of applicants has been completed.
 
 Use the applicant_# packages as a user-friendly reading format.
